@@ -1,0 +1,24 @@
+[project]
+name = "input-state"
+version = "1.0.0"
+description = "FastAPI service that splits a video into a silent MP4 and its complete audio track."
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "S"]
+ignore = [
+    "S101",  # assert is fine (tests, invariants)
+    "S603",  # subprocess with argument lists is the intended, safe usage here
+    "B008",  # FastAPI Depends/File in defaults
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S"]

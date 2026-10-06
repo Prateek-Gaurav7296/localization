@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local config
+.env
+
+# Processing runs (keep the directory itself)
+input/*
+!input/.gitkeep
+
+# OS
+.DS_Store
