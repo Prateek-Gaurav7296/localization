@@ -1,0 +1,6 @@
+[server]
+# Streamlit holds uploads in memory; the pipeline enforces its own MAX_UPLOAD_SIZE_MB as well.
+maxUploadSize = 1024
+
+[browser]
+gatherUsageStats = false

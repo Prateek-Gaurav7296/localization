@@ -3,4 +3,10 @@ __pycache__/
 *.py[cod]
 .venv/
 .env
+.pytest_cache/
+.ruff_cache/
 node_modules/
+
+# Processing runs and generated media (keep the directory itself)
+data/*
+!data/.gitkeep
