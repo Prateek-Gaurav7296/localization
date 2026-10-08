@@ -1,0 +1,1611 @@
+[
+  {
+    "index": 0,
+    "speaker": "SPEAKER_1",
+    "lines": [
+      {
+        "start": 0.0,
+        "end": 4.97,
+        "budget_s": 4.97,
+        "source": "I have these many MAC Cosmetics lipsticks, I'll tell you my favourites. Shade: Crème In Your Coffee"
+      }
+    ],
+    "intent": {
+      "function": "hook",
+      "beat": "excited collection reveal, sharing favourites",
+      "note": "Speaker shows off the size of her lipstick collection to grab attention, then transitions into naming her personal favorite shades, starting with one specific shade name that should remain as a brand-style product name.",
+      "literal": "I own a large number of MAC Cosmetics lipsticks, and I'm going to tell you which ones are my favorites. This one's shade is called Crème In Your Coffee.",
+      "entities": [
+        "MAC Cosmetics",
+        "Crème In Your Coffee"
+      ],
+      "tone": "casual, enthusiastic, chatty"
+    },
+    "candidates": [
+      {
+        "parts": [
+          {
+            "text": "ਮੇਰੇ ਕੋਲ ਐਨੀਆਂ MAC Cosmetics lipsticks ਨੇ, ਦੱਸਦੀ ਆਂ favourite shade: Crème In Your Coffee।",
+            "aksharas": 30,
+            "est_s": 5.873,
+            "fit": "OVER",
+            "delta_pct": 18.2
+          }
+        ],
+        "total_aksharas": 30,
+        "worst_delta_pct": 18.2,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.364,
+        "gloss": "I have so many MAC Cosmetics lipsticks. I tell (you), favorite shade: Crème In Your Coffee.",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "Changed 'favourites' plural to 'favorite' singular and shifted tense from future to present."
+        },
+        "total_cost": 1.164
+      },
+      {
+        "parts": [
+          {
+            "text": "ਮੇਰੇ ਕੋਲ ਐਨੀਆਂ MAC Cosmetics lipsticks ਨੇ, ਦੱਸਦੀ ਆਂ ਮੇਰੀਆਂ favourites—ਇਹ ਸ਼ੇਡ Crème In Your Coffee।",
+            "aksharas": 35,
+            "est_s": 6.821,
+            "fit": "OVER",
+            "delta_pct": 37.3
+          }
+        ],
+        "total_aksharas": 35,
+        "worst_delta_pct": 37.3,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.746,
+        "gloss": "I have so many MAC Cosmetics lipsticks, I tell my favorites—this shade Crème In Your Coffee.",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": ""
+        },
+        "total_cost": 0.746
+      },
+      {
+        "parts": [
+          {
+            "text": "ਵੇਖੋ ਮੇਰੇ ਕੋਲ ਕਿੰਨੀਆਂ MAC Cosmetics lipsticks ਨੇ! ਹੁਣ ਦੱਸਦੀ ਆਂ ਮੇਰੀਆਂ favourite shades, ਪਹਿਲੀ ਆ Crème In Your Coffee।",
+            "aksharas": 41,
+            "est_s": 7.96,
+            "fit": "OVER",
+            "delta_pct": 60.2
+          }
+        ],
+        "total_aksharas": 41,
+        "worst_delta_pct": 60.2,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.204,
+        "gloss": "Look, how many MAC Cosmetics lipsticks I have! Now I will tell my favorite shades, first is Crème In Your Coffee.",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": ""
+        },
+        "total_cost": 1.204
+      },
+      {
+        "parts": [
+          {
+            "text": "ਮੇਰੇ ਕੋਲ ਤਾਂ ਢੇਰ ਸਾਰੀਆਂ MAC Cosmetics lipsticks ਨੇ, ਚਲੋ ਦੱਸਦੀ ਆਂ ਆਪਣੀਆਂ favourites, ਜਿਵੇਂ ਇਹ ਸ਼ੇਡ Crème In Your Coffee।",
+            "aksharas": 43,
+            "est_s": 8.339,
+            "fit": "OVER",
+            "delta_pct": 67.8
+          }
+        ],
+        "total_aksharas": 43,
+        "worst_delta_pct": 67.8,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.356
+      },
+      {
+        "parts": [
+          {
+            "text": "ਵੇਖੋ ਜ�਼ਰਾ, ਮੇਰੇ ਕੋਲ ਕਿੰਨੀਆਂ ਸਾਰੀਆਂ MAC Cosmetics lipsticks ਪਈਆਂ ਨੇ! ਹੁਣ ਮੈਂ ਦੱਸਦੀ ਆਂ ਆਪਣੀਆਂ ਸਭ ਤੋਂ favourite shades, ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਇਹ ਸ਼ੇਡ ਆ Crème In Your Coffee।",
+            "aksharas": 61,
+            "est_s": 11.755,
+            "fit": "OVER",
+            "delta_pct": 136.5
+          }
+        ],
+        "total_aksharas": 61,
+        "worst_delta_pct": 136.5,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 2.73
+      }
+    ],
+    "chosen": {
+      "parts": [
+        {
+          "text": "ਮੇਰੇ ਕੋਲ ਐਨੀਆਂ MAC Cosmetics lipsticks ਨੇ, ਦੱਸਦੀ ਆਂ ਮੇਰੀਆਂ favourites—ਇਹ ਸ਼ੇਡ Crème In Your Coffee।",
+          "aksharas": 35,
+          "est_s": 6.821,
+          "fit": "OVER",
+          "delta_pct": 37.3
+        }
+      ],
+      "total_aksharas": 35,
+      "worst_delta_pct": 37.3,
+      "overflow": true,
+      "foreign_script": [],
+      "missing_protected": [],
+      "allowlist_dropped": [],
+      "fit_cost": 0.746,
+      "gloss": "I have so many MAC Cosmetics lipsticks, I tell my favorites—this shade Crème In Your Coffee.",
+      "meaning": {
+        "matches_brief": true,
+        "matches_original": true,
+        "drift": ""
+      },
+      "total_cost": 0.746
+    },
+    "gloss": "I have so many MAC Cosmetics lipsticks, I tell my favorites—this shade Crème In Your Coffee.",
+    "meaning": {
+      "matches_brief": true,
+      "matches_original": true,
+      "drift": ""
+    },
+    "literal_gate": "",
+    "errors": []
+  },
+  {
+    "index": 1,
+    "speaker": "SPEAKER_1",
+    "lines": [
+      {
+        "start": 6.405,
+        "end": 7.33,
+        "budget_s": 0.9249999999999998,
+        "source": "Shade Soar"
+      }
+    ],
+    "intent": {
+      "function": "filler",
+      "beat": "naming the shade proudly",
+      "note": "Announces the specific lipstick shade name as she applies it, helping viewers identify and recall this particular color in her collection.",
+      "literal": "This shade is called Soar.",
+      "entities": [
+        "Soar"
+      ],
+      "tone": "upbeat, casual"
+    },
+    "candidates": [
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ Soar",
+            "aksharas": 3,
+            "est_s": 0.749,
+            "fit": "short",
+            "delta_pct": -19.0
+          }
+        ],
+        "total_aksharas": 3,
+        "worst_delta_pct": 19.0,
+        "overflow": false,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.19,
+        "gloss": "Shed Soar",
+        "meaning": {
+          "matches_brief": false,
+          "matches_original": false,
+          "drift": "'Shade' (lipstick variant) became 'Shed' (implying removal), altering both product identification and intended meaning."
+        },
+        "total_cost": 1.34
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸ਼ੇਡ Soar ਐ",
+            "aksharas": 6,
+            "est_s": 1.319,
+            "fit": "OVER",
+            "delta_pct": 42.5
+          }
+        ],
+        "total_aksharas": 6,
+        "worst_delta_pct": 42.5,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.85
+      },
+      {
+        "parts": [
+          {
+            "text": "ਨਾਂ ਐ Soar ਸ਼ੇਡ",
+            "aksharas": 5,
+            "est_s": 1.129,
+            "fit": "OVER",
+            "delta_pct": 22.0
+          }
+        ],
+        "total_aksharas": 5,
+        "worst_delta_pct": 22.0,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.44,
+        "gloss": "Name is Soar Shade",
+        "meaning": {
+          "matches_brief": false,
+          "matches_original": false,
+          "drift": "The localized line changed the shade name from 'Soar' to 'Soar Shade', altering both the brief's requirement to identify the specific color and the original line's naming convention."
+        },
+        "total_cost": 1.59
+      },
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ Soar",
+            "aksharas": 5,
+            "est_s": 1.129,
+            "fit": "OVER",
+            "delta_pct": 22.0
+          }
+        ],
+        "total_aksharas": 5,
+        "worst_delta_pct": 22.0,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.44,
+        "gloss": "Shade of the name Soar",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "Added 'of the name' which slightly rephrases the original."
+        },
+        "total_cost": 1.24
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਐ ਸ਼ੇਡ Soar ਜੀ",
+            "aksharas": 7,
+            "est_s": 1.508,
+            "fit": "OVER",
+            "delta_pct": 63.1
+          }
+        ],
+        "total_aksharas": 7,
+        "worst_delta_pct": 63.1,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.262
+      }
+    ],
+    "chosen": {
+      "parts": [
+        {
+          "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ Soar",
+          "aksharas": 5,
+          "est_s": 1.129,
+          "fit": "OVER",
+          "delta_pct": 22.0
+        }
+      ],
+      "total_aksharas": 5,
+      "worst_delta_pct": 22.0,
+      "overflow": true,
+      "foreign_script": [],
+      "missing_protected": [],
+      "allowlist_dropped": [],
+      "fit_cost": 0.44,
+      "gloss": "Shade of the name Soar",
+      "meaning": {
+        "matches_brief": true,
+        "matches_original": false,
+        "drift": "Added 'of the name' which slightly rephrases the original."
+      },
+      "total_cost": 1.24
+    },
+    "gloss": "Shade of the name Soar",
+    "meaning": {
+      "matches_brief": true,
+      "matches_original": false,
+      "drift": "Added 'of the name' which slightly rephrases the original."
+    },
+    "literal_gate": "",
+    "errors": []
+  },
+  {
+    "index": 2,
+    "speaker": "SPEAKER_1",
+    "lines": [
+      {
+        "start": 9.45,
+        "end": 10.28,
+        "budget_s": 0.8300000000000001,
+        "source": "Shade Twig"
+      },
+      {
+        "start": 10.805,
+        "end": 11.57,
+        "budget_s": 0.7650000000000006,
+        "source": "'Cause"
+      }
+    ],
+    "intent": {
+      "function": "filler",
+      "beat": "naming shade, leading into reason",
+      "note": "She announces the name of the lipstick shade she's currently applying, then starts to give a reason or explanation for something about it, trailing into the next segment.",
+      "literal": "This shade is called Twig. Because...",
+      "entities": [
+        "Twig"
+      ],
+      "tone": "casual, conversational"
+    },
+    "candidates": [
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ Twig ਐ",
+            "aksharas": 4,
+            "est_s": 0.939,
+            "fit": "OVER",
+            "delta_pct": 13.1
+          },
+          {
+            "text": "ਕਿਉਂਕਿ",
+            "aksharas": 3,
+            "est_s": 0.749,
+            "fit": "exact",
+            "delta_pct": -2.1
+          }
+        ],
+        "total_aksharas": 7,
+        "worst_delta_pct": 13.1,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.262,
+        "gloss": "Shade Twig E because",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "The shade name was altered from 'Twig 'Cause' to 'Twig E', and 'cause' became 'because' as a separate word."
+        },
+        "total_cost": 1.062
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸ਼ੇਡ Twig ਐ",
+            "aksharas": 6,
+            "est_s": 1.319,
+            "fit": "OVER",
+            "delta_pct": 58.9
+          },
+          {
+            "text": "ਕਿਉਂਕਿ",
+            "aksharas": 3,
+            "est_s": 0.749,
+            "fit": "exact",
+            "delta_pct": -2.1
+          }
+        ],
+        "total_aksharas": 9,
+        "worst_delta_pct": 58.9,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.178,
+        "gloss": "This shade Twig is because",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": ""
+        },
+        "total_cost": 1.178
+      },
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ Twig ਐ",
+            "aksharas": 6,
+            "est_s": 1.319,
+            "fit": "OVER",
+            "delta_pct": 58.9
+          },
+          {
+            "text": "ਕਿਉਂ ਜੇ",
+            "aksharas": 3,
+            "est_s": 0.749,
+            "fit": "exact",
+            "delta_pct": -2.1
+          }
+        ],
+        "total_aksharas": 9,
+        "worst_delta_pct": 58.9,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.178,
+        "gloss": "Shade of the name Twig is why if",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "The gloss restructures the explanation with 'is why if' instead of 'Cause', altering the directness of the original phrasing."
+        },
+        "total_cost": 1.978
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਸ ਸ਼ੇਡ ਦਾ ਨਾਂ Twig ਐ",
+            "aksharas": 8,
+            "est_s": 1.698,
+            "fit": "OVER",
+            "delta_pct": 104.6
+          },
+          {
+            "text": "ਇਸ ਲਈ ਕਿ",
+            "aksharas": 5,
+            "est_s": 1.129,
+            "fit": "OVER",
+            "delta_pct": 47.6
+          }
+        ],
+        "total_aksharas": 13,
+        "worst_delta_pct": 104.6,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 2.092
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹਦਾ ਸ਼ੇਡ ਦਾ ਨਾਂ ਐ Twig",
+            "aksharas": 9,
+            "est_s": 1.888,
+            "fit": "OVER",
+            "delta_pct": 127.4
+          },
+          {
+            "text": "ਕਿਉਂਕਿ ਜੀ",
+            "aksharas": 4,
+            "est_s": 0.939,
+            "fit": "OVER",
+            "delta_pct": 22.7
+          }
+        ],
+        "total_aksharas": 13,
+        "worst_delta_pct": 127.4,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 2.548
+      }
+    ],
+    "chosen": {
+      "parts": [
+        {
+          "text": "ਸ਼ੇਡ Twig ਐ",
+          "aksharas": 4,
+          "est_s": 0.939,
+          "fit": "OVER",
+          "delta_pct": 13.1
+        },
+        {
+          "text": "ਕਿਉਂਕਿ",
+          "aksharas": 3,
+          "est_s": 0.749,
+          "fit": "exact",
+          "delta_pct": -2.1
+        }
+      ],
+      "total_aksharas": 7,
+      "worst_delta_pct": 13.1,
+      "overflow": true,
+      "foreign_script": [],
+      "missing_protected": [],
+      "allowlist_dropped": [],
+      "fit_cost": 0.262,
+      "gloss": "Shade Twig E because",
+      "meaning": {
+        "matches_brief": true,
+        "matches_original": false,
+        "drift": "The shade name was altered from 'Twig 'Cause' to 'Twig E', and 'cause' became 'because' as a separate word."
+      },
+      "total_cost": 1.062
+    },
+    "gloss": "Shade Twig E because",
+    "meaning": {
+      "matches_brief": true,
+      "matches_original": false,
+      "drift": "The shade name was altered from 'Twig 'Cause' to 'Twig E', and 'cause' became 'because' as a separate word."
+    },
+    "literal_gate": "",
+    "errors": []
+  },
+  {
+    "index": 3,
+    "speaker": "SPEAKER_1",
+    "lines": [
+      {
+        "start": 12.695,
+        "end": 13.839,
+        "budget_s": 1.1440000000000001,
+        "source": "Shade Diva."
+      }
+    ],
+    "intent": {
+      "function": "filler",
+      "beat": "naming the product proudly",
+      "note": "Announces the name of the lipstick shade currently being applied, letting the product identity itself take a small moment of spotlight.",
+      "literal": "This shade is called Diva.",
+      "entities": [
+        "Diva"
+      ],
+      "tone": "playful, confident"
+    },
+    "candidates": [
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ Diva!",
+            "aksharas": 6,
+            "est_s": 1.319,
+            "fit": "OVER",
+            "delta_pct": 15.3
+          }
+        ],
+        "total_aksharas": 6,
+        "worst_delta_pct": 15.3,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.306,
+        "gloss": "Shade's name Diva!",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": "Slight rephrasing to emphasize the shade's name announcement."
+        },
+        "total_cost": 0.306
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸ਼ੇਡ Diva ਏ!",
+            "aksharas": 7,
+            "est_s": 1.508,
+            "fit": "OVER",
+            "delta_pct": 31.8
+          }
+        ],
+        "total_aksharas": 7,
+        "worst_delta_pct": 31.8,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.636,
+        "gloss": "This Shade Diva is!",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "Added 'This' to specify the current shade, shifting from a general title to a specific application moment."
+        },
+        "total_cost": 1.436
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਰਿਹਾ ਸ਼ੇਡ Diva!",
+            "aksharas": 8,
+            "est_s": 1.698,
+            "fit": "OVER",
+            "delta_pct": 48.4
+          }
+        ],
+        "total_aksharas": 8,
+        "worst_delta_pct": 48.4,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.968,
+        "gloss": "This remained shade Diva!",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "Adds 'remained' implying staying power, which wasn't in the original."
+        },
+        "total_cost": 1.768
+      },
+      {
+        "parts": [
+          {
+            "text": "ਜੀ, ਇਹ ਸ਼ੇਡ ਹੈ Diva!",
+            "aksharas": 8,
+            "est_s": 1.698,
+            "fit": "OVER",
+            "delta_pct": 48.4
+          }
+        ],
+        "total_aksharas": 8,
+        "worst_delta_pct": 48.4,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.968
+      },
+      {
+        "parts": [
+          {
+            "text": "ਤੇ ਜੀ, ਇਹ ਸ਼ੇਡ ਹੈ Diva!",
+            "aksharas": 9,
+            "est_s": 1.888,
+            "fit": "OVER",
+            "delta_pct": 65.0
+          }
+        ],
+        "total_aksharas": 9,
+        "worst_delta_pct": 65.0,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.3
+      }
+    ],
+    "chosen": {
+      "parts": [
+        {
+          "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ Diva!",
+          "aksharas": 6,
+          "est_s": 1.319,
+          "fit": "OVER",
+          "delta_pct": 15.3
+        }
+      ],
+      "total_aksharas": 6,
+      "worst_delta_pct": 15.3,
+      "overflow": true,
+      "foreign_script": [],
+      "missing_protected": [],
+      "allowlist_dropped": [],
+      "fit_cost": 0.306,
+      "gloss": "Shade's name Diva!",
+      "meaning": {
+        "matches_brief": true,
+        "matches_original": true,
+        "drift": "Slight rephrasing to emphasize the shade's name announcement."
+      },
+      "total_cost": 0.306
+    },
+    "gloss": "Shade's name Diva!",
+    "meaning": {
+      "matches_brief": true,
+      "matches_original": true,
+      "drift": "Slight rephrasing to emphasize the shade's name announcement."
+    },
+    "literal_gate": "",
+    "errors": []
+  },
+  {
+    "index": 4,
+    "speaker": "SPEAKER_1",
+    "lines": [
+      {
+        "start": 15.305,
+        "end": 16.245,
+        "budget_s": 0.9400000000000013,
+        "source": "She pleases all,"
+      },
+      {
+        "start": 16.575,
+        "end": 18.095,
+        "budget_s": 1.5199999999999996,
+        "source": "Shade, Please Me."
+      }
+    ],
+    "intent": {
+      "function": "benefit",
+      "beat": "playful crowd-pleasing confidence",
+      "note": "Makes a playful universal-appeal claim about the wearer, then reveals it's actually the name of the lipstick shade being applied, creating a pun between the compliment and the product name.",
+      "literal": "She satisfies everyone; the shade is called 'Please Me.'",
+      "entities": [
+        "Please Me"
+      ],
+      "tone": "playful, cheeky"
+    },
+    "candidates": [
+      {
+        "parts": [
+          {
+            "text": "ਸਭ ਨੂੰ ਭਾਂਵੇ",
+            "aksharas": 5,
+            "est_s": 1.129,
+            "fit": "OVER",
+            "delta_pct": 20.1
+          },
+          {
+            "text": "ਸ਼ੇਡ: Please Me",
+            "aksharas": 5,
+            "est_s": 1.129,
+            "fit": "short",
+            "delta_pct": -25.7
+          }
+        ],
+        "total_aksharas": 10,
+        "worst_delta_pct": 25.7,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.514,
+        "gloss": "All please Shade: Please Me",
+        "meaning": {
+          "matches_brief": false,
+          "matches_original": false,
+          "drift": "Rephrased the compliment and product name structure, altering the pun's clarity and flow."
+        },
+        "total_cost": 1.664
+      },
+      {
+        "parts": [
+          {
+            "text": "ਹਰ ਕਿਸੇ ਨੂੰ ਭਾਵੇ",
+            "aksharas": 7,
+            "est_s": 1.508,
+            "fit": "OVER",
+            "delta_pct": 60.5
+          },
+          {
+            "text": "ਨਾਂ ਹੈ ਇਸਦਾ Please Me",
+            "aksharas": 8,
+            "est_s": 1.698,
+            "fit": "OVER",
+            "delta_pct": 11.7
+          }
+        ],
+        "total_aksharas": 15,
+        "worst_delta_pct": 60.5,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.21,
+        "gloss": "Everyone pleasing is not its Please Me",
+        "meaning": {
+          "matches_brief": false,
+          "matches_original": false,
+          "drift": "Inverted structure and introduced negation, losing the playful pun between compliment and product name."
+        },
+        "total_cost": 2.36
+      },
+      {
+        "parts": [
+          {
+            "text": "ਸਭ ਨੂੰ ਖੁਸ਼ ਕਰੇ",
+            "aksharas": 7,
+            "est_s": 1.508,
+            "fit": "OVER",
+            "delta_pct": 60.5
+          },
+          {
+            "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ ਹੈ Please Me",
+            "aksharas": 8,
+            "est_s": 1.698,
+            "fit": "OVER",
+            "delta_pct": 11.7
+          }
+        ],
+        "total_aksharas": 15,
+        "worst_delta_pct": 60.5,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.21,
+        "gloss": "Pleases everyone, the name of the shade is Please Me",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "Shifted from gender-specific 'She' to gender-neutral 'everyone' and rephrased the reveal for explicit clarity, altering structural nuance while preserving the core pun."
+        },
+        "total_cost": 2.01
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸਭ ਨੂੰ ਖੁਸ਼ ਕਰੇ",
+            "aksharas": 9,
+            "est_s": 1.888,
+            "fit": "OVER",
+            "delta_pct": 100.8
+          },
+          {
+            "text": "ਤੇ ਸ਼ੇਡ ਦਾ ਨਾਂ ਹੈ Please Me",
+            "aksharas": 9,
+            "est_s": 1.888,
+            "fit": "OVER",
+            "delta_pct": 24.2
+          }
+        ],
+        "total_aksharas": 18,
+        "worst_delta_pct": 100.8,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 2.016
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਤਾਂ ਸਭ ਨੂੰ ਖੁਸ਼ ਕਰ ਦੇਵੇ",
+            "aksharas": 12,
+            "est_s": 2.457,
+            "fit": "OVER",
+            "delta_pct": 161.4
+          },
+          {
+            "text": "ਤੇ ਇਸ ਸ਼ੇਡ ਦਾ ਨਾਂ ਹੈ Please Me",
+            "aksharas": 11,
+            "est_s": 2.267,
+            "fit": "OVER",
+            "delta_pct": 49.2
+          }
+        ],
+        "total_aksharas": 23,
+        "worst_delta_pct": 161.4,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 3.228
+      }
+    ],
+    "chosen": {
+      "parts": [
+        {
+          "text": "ਸਭ ਨੂੰ ਭਾਂਵੇ",
+          "aksharas": 5,
+          "est_s": 1.129,
+          "fit": "OVER",
+          "delta_pct": 20.1
+        },
+        {
+          "text": "ਸ਼ੇਡ: Please Me",
+          "aksharas": 5,
+          "est_s": 1.129,
+          "fit": "short",
+          "delta_pct": -25.7
+        }
+      ],
+      "total_aksharas": 10,
+      "worst_delta_pct": 25.7,
+      "overflow": true,
+      "foreign_script": [],
+      "missing_protected": [],
+      "allowlist_dropped": [],
+      "fit_cost": 0.514,
+      "gloss": "All please Shade: Please Me",
+      "meaning": {
+        "matches_brief": false,
+        "matches_original": false,
+        "drift": "Rephrased the compliment and product name structure, altering the pun's clarity and flow."
+      },
+      "total_cost": 1.664
+    },
+    "gloss": "All please Shade: Please Me",
+    "meaning": {
+      "matches_brief": false,
+      "matches_original": false,
+      "drift": "Rephrased the compliment and product name structure, altering the pun's clarity and flow."
+    },
+    "literal_gate": "",
+    "errors": []
+  },
+  {
+    "index": 5,
+    "speaker": "SPEAKER_1",
+    "lines": [
+      {
+        "start": 20.815,
+        "end": 22.525,
+        "budget_s": 1.7099999999999973,
+        "source": "Shade Whirl."
+      }
+    ],
+    "intent": {
+      "function": "filler",
+      "beat": "casual naming of product",
+      "note": "She is simply announcing the name of the lipstick shade she is currently applying, as part of a running list of products shown in the video.",
+      "literal": "The shade is called Whirl.",
+      "entities": [
+        "Whirl"
+      ],
+      "tone": "light, casual"
+    },
+    "candidates": [
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸ਼ੇਡ Whirl ਏ।",
+            "aksharas": 6,
+            "est_s": 1.319,
+            "fit": "short",
+            "delta_pct": -22.9
+          }
+        ],
+        "total_aksharas": 6,
+        "worst_delta_pct": 22.9,
+        "overflow": false,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.229
+      },
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ Whirl ਏ।",
+            "aksharas": 6,
+            "est_s": 1.319,
+            "fit": "short",
+            "delta_pct": -22.9
+          }
+        ],
+        "total_aksharas": 6,
+        "worst_delta_pct": 22.9,
+        "overflow": false,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.229
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹਦਾ ਸ਼ੇਡ Whirl ਏ।",
+            "aksharas": 7,
+            "est_s": 1.508,
+            "fit": "short",
+            "delta_pct": -11.8
+          }
+        ],
+        "total_aksharas": 7,
+        "worst_delta_pct": 11.8,
+        "overflow": false,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.118,
+        "gloss": "This's Shade Whirls.",
+        "meaning": {
+          "matches_brief": false,
+          "matches_original": false,
+          "drift": "Adds 'This's' and pluralizes 'Whirl' to 'Whirls', altering the product name and adding a possessive pronoun not present in the original."
+        },
+        "total_cost": 1.268
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸ਼ੇਡ ਦਾ ਨਾਂ Whirl ਹੈ।",
+            "aksharas": 8,
+            "est_s": 1.698,
+            "fit": "exact",
+            "delta_pct": -0.7
+          }
+        ],
+        "total_aksharas": 8,
+        "worst_delta_pct": 0.7,
+        "overflow": false,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.007,
+        "gloss": "This shade of the name Whirl is.",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "The localized line uses a grammatically incorrect structure instead of a direct label."
+        },
+        "total_cost": 0.807
+      },
+      {
+        "parts": [
+          {
+            "text": "ਤੇ ਇਹ ਸ਼ੇਡ ਦਾ ਨਾਂ ਹੈ Whirl।",
+            "aksharas": 9,
+            "est_s": 1.888,
+            "fit": "OVER",
+            "delta_pct": 10.4
+          }
+        ],
+        "total_aksharas": 9,
+        "worst_delta_pct": 10.4,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.208,
+        "gloss": "And this Shade's name is Whirl.",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": ""
+        },
+        "total_cost": 0.208
+      }
+    ],
+    "chosen": {
+      "parts": [
+        {
+          "text": "ਤੇ ਇਹ ਸ਼ੇਡ ਦਾ ਨਾਂ ਹੈ Whirl।",
+          "aksharas": 9,
+          "est_s": 1.888,
+          "fit": "OVER",
+          "delta_pct": 10.4
+        }
+      ],
+      "total_aksharas": 9,
+      "worst_delta_pct": 10.4,
+      "overflow": true,
+      "foreign_script": [],
+      "missing_protected": [],
+      "allowlist_dropped": [],
+      "fit_cost": 0.208,
+      "gloss": "And this Shade's name is Whirl.",
+      "meaning": {
+        "matches_brief": true,
+        "matches_original": true,
+        "drift": ""
+      },
+      "total_cost": 0.208
+    },
+    "gloss": "And this Shade's name is Whirl.",
+    "meaning": {
+      "matches_brief": true,
+      "matches_original": true,
+      "drift": ""
+    },
+    "literal_gate": "",
+    "errors": []
+  },
+  {
+    "index": 6,
+    "speaker": "SPEAKER_1",
+    "lines": [
+      {
+        "start": 25.358,
+        "end": 26.59,
+        "budget_s": 1.2319999999999993,
+        "source": "Shade Velvet Teddy"
+      }
+    ],
+    "intent": {
+      "function": "filler",
+      "beat": "naming a product, casual reveal",
+      "note": "Identifies the specific lipstick shade being applied, giving viewers the product name so they can recognize or search for it.",
+      "literal": "This shade is called Velvet Teddy.",
+      "entities": [
+        "Velvet Teddy"
+      ],
+      "tone": "casual, informative"
+    },
+    "candidates": [
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ ਐ Velvet Teddy",
+            "aksharas": 7,
+            "est_s": 1.508,
+            "fit": "OVER",
+            "delta_pct": 22.4
+          }
+        ],
+        "total_aksharas": 7,
+        "worst_delta_pct": 22.4,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.448,
+        "gloss": "Shade is Velvet Teddy",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": "The localized version adds 'is', making it a complete sentence rather than a phrase."
+        },
+        "total_cost": 0.448
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸ਼ੇਡ Velvet Teddy ਐ",
+            "aksharas": 9,
+            "est_s": 1.888,
+            "fit": "OVER",
+            "delta_pct": 53.2
+          }
+        ],
+        "total_aksharas": 9,
+        "worst_delta_pct": 53.2,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.064,
+        "gloss": "This shade Velvet Teddy is.",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": ""
+        },
+        "total_cost": 1.064
+      },
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ Velvet Teddy ਐ",
+            "aksharas": 9,
+            "est_s": 1.888,
+            "fit": "OVER",
+            "delta_pct": 53.2
+          }
+        ],
+        "total_aksharas": 9,
+        "worst_delta_pct": 53.2,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.064,
+        "gloss": "Shade's name is Velvet Teddy",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": "Added 'name is' to form a complete sentence, but meaning remains unchanged."
+        },
+        "total_cost": 1.064
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸ਼ੇਡ ਦਾ ਨਾਂ Velvet Teddy ਐ",
+            "aksharas": 11,
+            "est_s": 2.267,
+            "fit": "OVER",
+            "delta_pct": 84.0
+          }
+        ],
+        "total_aksharas": 11,
+        "worst_delta_pct": 84.0,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.68
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸ਼ੇਡ ਦਾ ਨਾਂ ਜੀ Velvet Teddy ਐ",
+            "aksharas": 12,
+            "est_s": 2.457,
+            "fit": "OVER",
+            "delta_pct": 99.4
+          }
+        ],
+        "total_aksharas": 12,
+        "worst_delta_pct": 99.4,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.988
+      }
+    ],
+    "chosen": {
+      "parts": [
+        {
+          "text": "ਸ਼ੇਡ ਐ Velvet Teddy",
+          "aksharas": 7,
+          "est_s": 1.508,
+          "fit": "OVER",
+          "delta_pct": 22.4
+        }
+      ],
+      "total_aksharas": 7,
+      "worst_delta_pct": 22.4,
+      "overflow": true,
+      "foreign_script": [],
+      "missing_protected": [],
+      "allowlist_dropped": [],
+      "fit_cost": 0.448,
+      "gloss": "Shade is Velvet Teddy",
+      "meaning": {
+        "matches_brief": true,
+        "matches_original": true,
+        "drift": "The localized version adds 'is', making it a complete sentence rather than a phrase."
+      },
+      "total_cost": 0.448
+    },
+    "gloss": "Shade is Velvet Teddy",
+    "meaning": {
+      "matches_brief": true,
+      "matches_original": true,
+      "drift": "The localized version adds 'is', making it a complete sentence rather than a phrase."
+    },
+    "literal_gate": "",
+    "errors": []
+  },
+  {
+    "index": 7,
+    "speaker": "SPEAKER_1",
+    "lines": [
+      {
+        "start": 27.215,
+        "end": 27.73,
+        "budget_s": 0.5150000000000006,
+        "source": "Lover"
+      }
+    ],
+    "intent": {
+      "function": "filler",
+      "beat": "casually naming a shade",
+      "note": "She simply states the name of the lipstick shade she is currently applying, as one item in a running list of her collection.",
+      "literal": "The shade is called 'Lover'.",
+      "entities": [
+        "Lover"
+      ],
+      "tone": "light, casual, quick"
+    },
+    "candidates": [
+      {
+        "parts": [
+          {
+            "text": "Lover",
+            "aksharas": 2,
+            "est_s": 0.56,
+            "fit": "OVER",
+            "delta_pct": 8.6
+          }
+        ],
+        "total_aksharas": 2,
+        "worst_delta_pct": 8.6,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.172,
+        "gloss": "Lover",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": ""
+        },
+        "total_cost": 0.172
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ Lover",
+            "aksharas": 4,
+            "est_s": 0.939,
+            "fit": "OVER",
+            "delta_pct": 82.3
+          }
+        ],
+        "total_aksharas": 4,
+        "worst_delta_pct": 82.3,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.646,
+        "gloss": "This Lover",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "Adds 'This' to specify current application."
+        },
+        "total_cost": 2.446
+      },
+      {
+        "parts": [
+          {
+            "text": "ਹੁਣ Lover",
+            "aksharas": 4,
+            "est_s": 0.939,
+            "fit": "OVER",
+            "delta_pct": 82.3
+          }
+        ],
+        "total_aksharas": 4,
+        "worst_delta_pct": 82.3,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.646,
+        "gloss": "Now Lover",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "Adds 'Now' to indicate current application, altering the original's simplicity."
+        },
+        "total_cost": 2.446
+      },
+      {
+        "parts": [
+          {
+            "text": "ਲਓ Lover",
+            "aksharas": 4,
+            "est_s": 0.939,
+            "fit": "OVER",
+            "delta_pct": 82.3
+          }
+        ],
+        "total_aksharas": 4,
+        "worst_delta_pct": 82.3,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 1.646
+      },
+      {
+        "parts": [
+          {
+            "text": "ਤੇ ਇਹ Lover",
+            "aksharas": 5,
+            "est_s": 1.129,
+            "fit": "OVER",
+            "delta_pct": 119.2
+          }
+        ],
+        "total_aksharas": 5,
+        "worst_delta_pct": 119.2,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 2.384
+      }
+    ],
+    "chosen": {
+      "parts": [
+        {
+          "text": "Lover",
+          "aksharas": 2,
+          "est_s": 0.56,
+          "fit": "OVER",
+          "delta_pct": 8.6
+        }
+      ],
+      "total_aksharas": 2,
+      "worst_delta_pct": 8.6,
+      "overflow": true,
+      "foreign_script": [],
+      "missing_protected": [],
+      "allowlist_dropped": [],
+      "fit_cost": 0.172,
+      "gloss": "Lover",
+      "meaning": {
+        "matches_brief": true,
+        "matches_original": true,
+        "drift": ""
+      },
+      "total_cost": 0.172
+    },
+    "gloss": "Lover",
+    "meaning": {
+      "matches_brief": true,
+      "matches_original": true,
+      "drift": ""
+    },
+    "literal_gate": "",
+    "errors": []
+  },
+  {
+    "index": 8,
+    "speaker": "SPEAKER_1",
+    "lines": [
+      {
+        "start": 28.74,
+        "end": 29.65,
+        "budget_s": 0.9100000000000001,
+        "source": "Shade Mehr."
+      }
+    ],
+    "intent": {
+      "function": "filler",
+      "beat": "naming the shade casually",
+      "note": "Announces the name of the current lipstick shade being shown and applied, as part of a running list through the collection.",
+      "literal": "Shade, Mehr.",
+      "entities": [
+        "Mehr"
+      ],
+      "tone": "casual, upbeat"
+    },
+    "candidates": [
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ Mehr",
+            "aksharas": 3,
+            "est_s": 0.749,
+            "fit": "short",
+            "delta_pct": -17.7
+          }
+        ],
+        "total_aksharas": 3,
+        "worst_delta_pct": 17.7,
+        "overflow": false,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.177,
+        "gloss": "Shade Mehr",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": ""
+        },
+        "total_cost": 0.177
+      },
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ, Mehr",
+            "aksharas": 3,
+            "est_s": 0.749,
+            "fit": "short",
+            "delta_pct": -17.7
+          }
+        ],
+        "total_aksharas": 3,
+        "worst_delta_pct": 17.7,
+        "overflow": false,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.177,
+        "gloss": "Shade, Mehr",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": true,
+          "drift": ""
+        },
+        "total_cost": 0.177
+      },
+      {
+        "parts": [
+          {
+            "text": "ਇਹ ਸ਼ੇਡ Mehr",
+            "aksharas": 5,
+            "est_s": 1.129,
+            "fit": "OVER",
+            "delta_pct": 24.0
+          }
+        ],
+        "total_aksharas": 5,
+        "worst_delta_pct": 24.0,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.48
+      },
+      {
+        "parts": [
+          {
+            "text": "ਸ਼ੇਡ ਆ Mehr",
+            "aksharas": 4,
+            "est_s": 0.939,
+            "fit": "tight",
+            "delta_pct": 3.2
+          }
+        ],
+        "total_aksharas": 4,
+        "worst_delta_pct": 3.2,
+        "overflow": false,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.032,
+        "gloss": "Shade of Mehr",
+        "meaning": {
+          "matches_brief": true,
+          "matches_original": false,
+          "drift": "Added 'of' which slightly alters the directness of the shade name announcement."
+        },
+        "total_cost": 0.832
+      },
+      {
+        "parts": [
+          {
+            "text": "ਤੇ ਸ਼ੇਡ ਆ Mehr",
+            "aksharas": 5,
+            "est_s": 1.129,
+            "fit": "OVER",
+            "delta_pct": 24.0
+          }
+        ],
+        "total_aksharas": 5,
+        "worst_delta_pct": 24.0,
+        "overflow": true,
+        "foreign_script": [],
+        "missing_protected": [],
+        "allowlist_dropped": [],
+        "fit_cost": 0.48
+      }
+    ],
+    "chosen": {
+      "parts": [
+        {
+          "text": "ਸ਼ੇਡ Mehr",
+          "aksharas": 3,
+          "est_s": 0.749,
+          "fit": "short",
+          "delta_pct": -17.7
+        }
+      ],
+      "total_aksharas": 3,
+      "worst_delta_pct": 17.7,
+      "overflow": false,
+      "foreign_script": [],
+      "missing_protected": [],
+      "allowlist_dropped": [],
+      "fit_cost": 0.177,
+      "gloss": "Shade Mehr",
+      "meaning": {
+        "matches_brief": true,
+        "matches_original": true,
+        "drift": ""
+      },
+      "total_cost": 0.177
+    },
+    "gloss": "Shade Mehr",
+    "meaning": {
+      "matches_brief": true,
+      "matches_original": true,
+      "drift": ""
+    },
+    "literal_gate": "",
+    "errors": []
+  }
+]

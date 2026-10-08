@@ -1,0 +1,9 @@
+# Camb.ai SDK — STT, TTS, translation, voice library
+camb-sdk>=1.0
+
+# Bundled ffmpeg binary, used only if ffmpeg is not already on PATH
+imageio-ffmpeg>=0.5
+
+# Everything else is stdlib: urllib, wave, array, json, csv, argparse.
+# Gemini, OpenRouter and Google Cloud are called over plain REST on purpose,
+# so a vendor SDK change cannot break the harness mid-experiment.

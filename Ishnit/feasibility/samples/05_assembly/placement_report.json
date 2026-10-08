@@ -1,0 +1,112 @@
+[
+  {
+    "i": 0,
+    "start": 0.0,
+    "budget_s": 4.97,
+    "spoken_s": 7.064,
+    "tempo": 1.0,
+    "placed_s": 7.064,
+    "status": "overflow",
+    "text": "ਮੇਰੇ ਕੋਲ ਐਨੀਆਂ MAC Cosmetics lipsticks ਨੇ, ਦੱਸਦੀ ਆਂ ਮੇਰੀਆਂ favourites—ਇਹ ਸ਼ੇਡ Crème In Your Coffee।"
+  },
+  {
+    "i": 1,
+    "start": 6.405,
+    "budget_s": 0.925,
+    "spoken_s": 1.859,
+    "tempo": 1.0,
+    "placed_s": 1.859,
+    "status": "OVERLAP",
+    "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ Soar"
+  },
+  {
+    "i": 2,
+    "start": 9.45,
+    "budget_s": 0.83,
+    "spoken_s": 1.342,
+    "tempo": 1.0,
+    "placed_s": 1.342,
+    "status": "overflow",
+    "text": "ਸ਼ੇਡ Twig ਐ"
+  },
+  {
+    "i": 3,
+    "start": 10.805,
+    "budget_s": 0.765,
+    "spoken_s": 0.643,
+    "tempo": 1.0,
+    "placed_s": 0.643,
+    "status": "ok",
+    "text": "ਕਿਉਂਕਿ"
+  },
+  {
+    "i": 4,
+    "start": 12.695,
+    "budget_s": 1.144,
+    "spoken_s": 1.58,
+    "tempo": 1.0,
+    "placed_s": 1.58,
+    "status": "overflow",
+    "text": "ਸ਼ੇਡ ਦਾ ਨਾਂ Diva!"
+  },
+  {
+    "i": 5,
+    "start": 15.305,
+    "budget_s": 0.94,
+    "spoken_s": 1.298,
+    "tempo": 1.0,
+    "placed_s": 1.298,
+    "status": "overflow",
+    "text": "ਸਭ ਨੂੰ ਭਾਂਵੇ"
+  },
+  {
+    "i": 6,
+    "start": 16.575,
+    "budget_s": 1.52,
+    "spoken_s": 1.385,
+    "tempo": 1.0,
+    "placed_s": 1.385,
+    "status": "OVERLAP",
+    "text": "ਸ਼ੇਡ: Please Me"
+  },
+  {
+    "i": 7,
+    "start": 20.815,
+    "budget_s": 1.71,
+    "spoken_s": 1.811,
+    "tempo": 1.0,
+    "placed_s": 1.811,
+    "status": "overflow",
+    "text": "ਤੇ ਇਹ ਸ਼ੇਡ ਦਾ ਨਾਂ ਹੈ Whirl।"
+  },
+  {
+    "i": 8,
+    "start": 25.358,
+    "budget_s": 1.232,
+    "spoken_s": 1.389,
+    "tempo": 1.0,
+    "placed_s": 1.389,
+    "status": "overflow",
+    "text": "ਸ਼ੇਡ ਐ Velvet Teddy"
+  },
+  {
+    "i": 9,
+    "start": 27.215,
+    "budget_s": 0.515,
+    "spoken_s": 0.693,
+    "tempo": 1.0,
+    "placed_s": 0.693,
+    "status": "overflow",
+    "text": "Lover"
+  },
+  {
+    "i": 10,
+    "start": 28.74,
+    "budget_s": 0.91,
+    "spoken_s": 0.823,
+    "tempo": 1.0,
+    "placed_s": 0.823,
+    "status": "ok",
+    "text": "ਸ਼ੇਡ Mehr"
+  }
+]

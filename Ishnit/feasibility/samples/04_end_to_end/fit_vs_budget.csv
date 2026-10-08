@@ -1,0 +1,16 @@
+model,group,line,aksharas,budget_s,est_s,measured_s,delta_pct,fit,est_err_pct,text
+camb:mars-instruct,0,1,4,0.46,0.751,0.535,16.3,OVER,-40.3,ਐਕਸ਼ਨ!
+camb:mars-instruct,1,0,4,0.7,0.751,0.528,-24.6,short,-42.3,ਕੀ ਲੱਗਦਾ?
+camb:mars-instruct,1,1,4,0.445,0.751,0.52,16.9,OVER,-44.4,ਇਹ ਕੀ ਆ?
+camb:mars-instruct,1,2,10,1.19,1.609,2.39,100.8,OVER,32.7,ਕੋਈ ਹੋਰ water purifier ad?
+camb:mars-instruct,1,3,1,0.33,0.323,0.936,183.7,OVER,65.5,ਨਾ!
+camb:mars-instruct,2,0,23,3.44,3.466,3.633,5.6,tight,4.6,"ਇਹ ਕੋਈ ਆਮ RO ਹੈ ਹੀ ਨਹੀਂ, ਤਾਂ ਆਮ ਜਿਹਾ ad ਕਿਉਂ ਬਣਾਈਏ?"
+camb:mars-instruct,3,0,40,6.005,5.894,8.207,36.7,OVER,28.2,ਇਹ RO ਬਿਲਕੁਲ ਫ੍ਰੀ ਐ। Maintenance? ਉਹ ਵੀ ਫ੍ਰੀ। Livpure Smart RO ਵਿੱਚ ਤੁਸੀਂ ਸਿਰਫ਼ ਵਰਤੇ ਪਾਣੀ ਦਾ ਪੈਸਾ ਦਿੰਦੇ ਹੋ।
+camb:mars-instruct,3,1,11,1.535,1.751,2.46,60.2,OVER,28.8,ਸਿਰਫ਼ 375 rupees ਮਹੀਨਾ।
+camb:mars-instruct,3,2,22,3.295,3.323,4.815,46.1,OVER,31.0,ਯਕੀਨ ਨਹੀਂ ਆਉਂਦਾ? website ਤੇ ਜਾਓ ਤੇ ਹੱਕ ਨਾਲ ਬਣੋ smart।
+camb:mars-instruct,4,0,4,0.74,0.751,1.307,76.6,OVER,42.5,Livpure Smart
+camb:mars-instruct,4,1,5,0.615,0.894,0.981,59.5,OVER,8.9,ਸਿਆਣੀ ਚੋਣ
+gemini:gemini-3.8-flash-tts,0,0,1,0.47,0.323,0.468,-0.4,exact,31.0,ਤੇ
+gemini:gemini-3.8-flash-tts,0,1,4,0.46,0.751,0.521,13.2,OVER,-44.2,ਐਕਸ਼ਨ!
+gemini:gemini-3.8-flash-tts,1,0,4,0.7,0.751,0.877,25.2,OVER,14.3,ਕੀ ਲੱਗਦਾ?
+gemini:gemini-3.8-flash-tts,1,3,1,0.33,0.323,0.837,153.7,OVER,61.4,ਨਾ!
